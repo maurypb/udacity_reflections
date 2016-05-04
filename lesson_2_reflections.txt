@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+This initializes the repository, with no tracked files.  Without this, the structure that will keep track of them is not created.
