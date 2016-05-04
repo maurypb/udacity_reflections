@@ -1,0 +1,13 @@
+General:
+a git repository (git repo) is a collection of files, and their updates.
+"git log" shows the history of each file, at each "commit" point.  
+Each entry has a uid associated with it.
+the "head" is the current version.
+"git checkout" followed by a version uid makes the current version the one with the uid mentioned.  In other words, it reverts to the specified version. Then, the "head" is no longer the current version (or at least it might not be the current version).
+
+"git init" creates a repository in the current directory.
+
+typing "subl" followed by a filename in the current dir opens that file in "sublime" text editor.
+
+"git diff" followed by two uids displays the differences between the two versions.
+
