@@ -2,4 +2,18 @@ What happens when you initialize a repository? Why do you need to do it?
 This initializes the repository, with no tracked files.  Without this, the structure that will keep track of them is not created.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area is where the current version's changes are kept...? and when you commit them, they are added to the repository.
+The working directory has your current version of code, and is directly editable.
+You can put the current (live edited) version of a file/s into the staging area with "git add".
+The change is not put in to the repository until you "git commit".  Only at this point is the staging area the same as the repository's head.
+
+If you type "git diff" with no arguments, you get the difference between the current "working directory" version (the version that can be directly edited) and the "staged" version.
+If you type "git diff --staged" you get the difference between the staged version and the "head" version (so you can verify your changes before actually comitting them)
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+When you've made a logical change, "git add" the file to the staging area
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+you can try out things in a branch, but as branches change, they will be harder to re-integrate.
