@@ -2,3 +2,6 @@ reflections for lesson 3
 When would you want to use a remote repository rather than keeping all your work local?
 
 when you'd like to collaborate with other authors, or just have all your work available " on the cloud" anywhere you wish to work.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+If you are in a collaborative environment, you might only want to push when you are sure you'd like a version to be made public.
