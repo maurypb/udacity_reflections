@@ -5,3 +5,5 @@ when you'd like to collaborate with other authors, or just have all your work av
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If you are in a collaborative environment, you might only want to push when you are sure you'd like a version to be made public.
+
+
