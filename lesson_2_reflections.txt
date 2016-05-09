@@ -17,3 +17,9 @@ When you've made a logical change, "git add" the file to the staging area
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 you can try out things in a branch, but as branches change, they will be harder to re-integrate.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros:  Automatic... it's automatic.
+Cons... you are a little out of control of the code.
+If you're sure that the changes between two commits are independant, and will have no side effects, then automatic is cool.  Otherwise, do it manually.
+
