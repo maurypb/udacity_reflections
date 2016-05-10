@@ -6,4 +6,7 @@ when you'd like to collaborate with other authors, or just have all your work av
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If you are in a collaborative environment, you might only want to push when you are sure you'd like a version to be made public.
 
-
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+clones: When you copy a repository, usually from a remote to a local.
+Forks:  like a clone, except both copies are remote, and there is a reference to the original kept in the copy.
+branches:  a node in the commit history.  Each node has one parent, but two branches can point to the same parent... with branching,  you can make versions, or experiment with additional features etc without destroying the master line.
