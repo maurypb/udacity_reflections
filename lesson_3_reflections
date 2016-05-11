@@ -14,3 +14,7 @@ branches:  a node in the commit history.  Each node has one parent, but two bran
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 you can work offline, and compare your master with the origin/master (or any branches, for that matter)
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+it would be easier to just have the collaborator send you the changes, git seems overly complicated for collaboration on small projects, with few files.
+
